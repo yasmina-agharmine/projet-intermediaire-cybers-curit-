@@ -111,7 +111,7 @@ On configure donc l’adresse IP manuellement dans ce fichier pour placer la mac
 
 192.168.200.0
 
-![ip statique pour la victime](imgs/ipstatique-victime.png)
+![ip statique pour la victime](../imgs/ipstatique-victime.png)
 
 Une fois les deux machines configurées avec leurs adresses IP dans le même réseau, on peut passer à l’étape suivante.
 

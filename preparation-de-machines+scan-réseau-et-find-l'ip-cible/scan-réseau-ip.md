@@ -10,7 +10,7 @@ Nous ce qu’on va faire, c’est qu’on va faire un scan du réseau : avec le 
 
 Donc en tapant la commande, juste en scannant le réseau, on met l’option `-sn` qui veut dire en fait on scanne mais pas les ports, on veut juste chercher quelles machines sont actives sur le réseau.
 
-![scan du réseau pour reperer les machines actives](imgs/scanréseauLAN3.png)
+![scan du réseau pour reperer les machines actives](../imgs/scanréseauLAN3.png)
 
 
 Et bien on nous sort bien l’IP de la machine cible. Normalement on n’est pas censé savoir, mais là il y a une machine qui ressort : ça veut dire qu’il y a une machine sur le réseau qu’on a retrouvée grâce à cette commande. Donc si on nous dit “host is up” (ou un truc du style), ça veut dire que la machine répond.
@@ -31,7 +31,7 @@ Et bien sûr suivi de l’adresse IP qu’on aura trouvé, c’est-à-dire 192.1
 
 Et bien sûr toutes ces actions se font en `sudo` (donc en admin).
 
-![scan complet sur une addresse ip](imgs/scancompletIPvictime.png)
+![scan complet sur une addresse ip](../imgs/scancompletIPvictime.png)
 
 
 Donc voilà le scan va s’effectuer et là on va voir quoi ? On va voir tous les ports qui sont ouverts, tous les services qui y correspondent, et toutes les versions de chaque port.
